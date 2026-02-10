@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - FCT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0f172a',
+                        secondary: '#3b82f6',
+                        accent: '#8b5cf6',
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-slate-900 text-slate-50 font-sans antialiased overflow-x-hidden">
+
+    <nav id="navbar" class="fixed w-full top-0 z-50 glass transition-all duration-300"></nav>
+
+    <!-- Header -->
+    <header class="relative py-32 overflow-hidden flex items-center justify-center">
+        <!-- Background parallax optimized -->
+        <div class="absolute inset-0 z-0">
+            <img src="images/research.png" class="w-full h-full object-cover opacity-30 blur-sm scale-110">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-transparent"></div>
+        </div>
+
+        <div class="container mx-auto px-6 relative z-10 text-center">
+            <div
+                class="inline-block px-4 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-xs font-bold uppercase tracking-widest mb-4">
+                Innovation First</div>
+            <h1 class="text-4xl md:text-6xl font-black mb-6 animate-fade-in-up">Research & <span
+                    class="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">Innovation</span>
+            </h1>
+            <p class="text-lg text-slate-300 max-w-2xl mx-auto leading-relaxed animate-fade-in-up"
+                style="animation-delay: 0.1s;">
+                Discover how FCT is shaping the future through cutting-edge research in computing, engineering, and
+                biosystems.
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 space-y-20">
+
+        <!-- Research Statistics -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 reveal">
+            <div class="p-6 bg-slate-800/40 rounded-2xl border border-slate-700 text-center">
+                <div class="text-3xl font-bold text-white mb-1">50+</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Ongoing Projects</div>
+            </div>
+            <div class="p-6 bg-slate-800/40 rounded-2xl border border-slate-700 text-center">
+                <div class="text-3xl font-bold text-white mb-1">200+</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Publications</div>
+            </div>
+            <div class="p-6 bg-slate-800/40 rounded-2xl border border-slate-700 text-center">
+                <div class="text-3xl font-bold text-white mb-1">10</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Patents Filed</div>
+            </div>
+            <div class="p-6 bg-slate-800/40 rounded-2xl border border-slate-700 text-center">
+                <div class="text-3xl font-bold text-white mb-1">$5M+</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Research Grants</div>
+            </div>
+        </div>
+
+        <!-- Areas of Focus -->
+        <section>
+            <h2 class="text-3xl font-bold mb-12 flex items-center gap-3">
+                <span class="w-2 h-8 bg-blue-500 rounded-full"></span>
+                Key Research Areas
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="group bg-slate-800/20 backdrop-blur-sm border border-slate-700 hover:border-blue-500/50 rounded-2xl overflow-hidden hover-card reveal">
+                    <div class="h-48 bg-slate-700 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-blue-600/20 group-hover:bg-transparent transition-all"></div>
+                        <i
+                            class="fas fa-brain absolute -bottom-6 -right-6 text-9xl text-slate-800 group-hover:text-blue-900/50 transition-colors"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-blue-400 transition-colors">Artificial
+                            Intelligence</h3>
+                        <p class="text-slate-400 text-sm mb-4">Deep Learning, Natural Language Processing, and Computer
+                            Vision application in real-world scenarios.</p>
+                        <a href="#"
+                            class="text-blue-500 text-sm font-bold uppercase tracking-wider hover:underline">Read
+                            More</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="group bg-slate-800/20 backdrop-blur-sm border border-slate-700 hover:border-emerald-500/50 rounded-2xl overflow-hidden hover-card reveal"
+                    style="transition-delay: 100ms;">
+                    <div class="h-48 bg-slate-700 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-emerald-600/20 group-hover:bg-transparent transition-all"></div>
+                        <i
+                            class="fas fa-robot absolute -bottom-6 -right-6 text-9xl text-slate-800 group-hover:text-emerald-900/50 transition-colors"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-emerald-400 transition-colors">Robotics &
+                            Automation</h3>
+                        <p class="text-slate-400 text-sm mb-4">Designing autonomous systems and industrial robots for
+                            smart manufacturing.</p>
+                        <a href="#"
+                            class="text-emerald-500 text-sm font-bold uppercase tracking-wider hover:underline">Read
+                            More</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="group bg-slate-800/20 backdrop-blur-sm border border-slate-700 hover:border-orange-500/50 rounded-2xl overflow-hidden hover-card reveal"
+                    style="transition-delay: 200ms;">
+                    <div class="h-48 bg-slate-700 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-orange-600/20 group-hover:bg-transparent transition-all"></div>
+                        <i
+                            class="fas fa-seedling absolute -bottom-6 -right-6 text-9xl text-slate-800 group-hover:text-orange-900/50 transition-colors"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-3 group-hover:text-orange-400 transition-colors">Sustainable
+                            Tech</h3>
+                        <p class="text-slate-400 text-sm mb-4">Green energy solutions, smart agriculture, and waste
+                            management technologies.</p>
+                        <a href="#"
+                            class="text-orange-500 text-sm font-bold uppercase tracking-wider hover:underline">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Activities -->
+        <section class="bg-slate-800/30 rounded-3xl p-8 md:p-12 reveal">
+            <div class="flex flex-col md:flex-row gap-12 items-center">
+                <div class="md:w-1/2 space-y-6">
+                    <h2 class="text-3xl font-bold">Latest Research Activity</h2>
+                    <h3 class="text-xl text-blue-400">Annual International Conference on Computing (AICC 2024)</h3>
+                    <p class="text-slate-400 leading-relaxed">
+                        FCT successfully hosted the 5th Annual International Conference on Computing, bringing together
+                        researchers from over 20 countries. Keynote speakers included industry leaders from Google and
+                        Microsoft.
+                    </p>
+                    <a href="#"
+                        class="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-full text-white font-semibold transition-all shadow-lg shadow-blue-600/20">
+                        View Conference Proceedings <i class="fas fa-external-link-alt text-xs"></i>
+                    </a>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl blur-2xl opacity-20 transform rotate-6">
+                    </div>
+                    <img src="images/research.png" class="relative rounded-2xl shadow-2xl border border-slate-700/50">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="bg-slate-900 border-t border-slate-800 relative pt-16 pb-8"></footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
